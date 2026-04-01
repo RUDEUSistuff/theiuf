@@ -1,0 +1,53 @@
+body{
+    background:#050816;
+    color:#00f0ff;
+    font-family:Arial;
+    text-align:center;
+}
+
+#app{
+    display:none;
+    padding:20px;
+}
+
+button{
+    background:#050816;
+    color:#00f0ff;
+    border:2px solid #00f0ff;
+    padding:10px;
+    margin:5px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.2s;
+}
+
+button:hover{
+    background:#00f0ff;
+    color:black;
+    box-shadow:0 0 15px #00f0ff;
+}
+
+input{
+    padding:10px;
+    margin:10px;
+    border:2px solid #00f0ff;
+    background:#050816;
+    color:#00f0ff;
+    border-radius:8px;
+}
+
+#canvasBox canvas{
+    border:2px solid #00f0ff;
+    margin-top:10px;
+}
+
+#startScreen{
+    position:fixed;
+    width:100%;
+    height:100%;
+    background:#020617;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
